@@ -1,0 +1,1905 @@
+{
+ "_info": {
+  "popis": "Klíč = přesný název uzlu (node.name) v byt-v21-web*.glb. Souřadnice stred_m jsou v souřadnicích glTF/three.js (X = plán x, Y = výška, Z = plán y; metry). odhad=true → rozměr/vzhled je odhad („odh.“).",
+  "verze": "v21, 23. 11. 2026",
+  "neklikatelne": [
+   "zdi",
+   "obklad_koupelna",
+   "stropni_svetla",
+   "podlaha_koupelna",
+   "podlaha_loznice",
+   "podlaha_chodba",
+   "podlaha_obyvak",
+   "strop_koupelna",
+   "strop_loznice",
+   "strop_chodba",
+   "strop_obyvak",
+   "strop_nad_zdmi"
+  ]
+ },
+ "skrin_ABBY": {
+  "nazev": "Šatní skříň ABBY",
+  "kategorie": "skříň",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 270,
+   "hloubka": 64,
+   "vyska": 208
+  },
+  "rozmery_modelu_cm": {
+   "x": 64.4,
+   "y": 270.0,
+   "z": 208.0
+  },
+  "material_barva": "dub (světlý medový, odh. „artisan“) + grafit, prostřední dveře zrcadlo; 3 posuvné dveře",
+  "zdroj": "Sconto, č. 414864101",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.269,
+   1.04,
+   2.97
+  ]
+ },
+ "gauc_BALVI": {
+  "nazev": "Rohová sedačka BALVI II",
+  "kategorie": "sedačka",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 260,
+   "hloubka": 150,
+   "vyska": 82
+  },
+  "rozmery_modelu_cm": {
+   "x": 150.0,
+   "y": 260.0,
+   "z": 82.0
+  },
+  "material_barva": "zelený samet",
+  "zdroj": "Sconto, č. 414958807",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   1.844,
+   0.41,
+   12.5
+  ]
+ },
+ "umyvadlo_se_skrinkou": {
+  "nazev": "Umyvadlo se skříňkou",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 60,
+   "hloubka": 45,
+   "vyska": 85
+  },
+  "rozmery_modelu_cm": {
+   "x": 45.0,
+   "y": 60.0,
+   "z": 84.9
+  },
+  "material_barva": "bílá",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   -0.32,
+   0.575,
+   6.8
+  ]
+ },
+ "bojler": {
+  "nazev": "Bojler na zdi",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 46,
+   "hloubka": 46,
+   "vyska": 80
+  },
+  "rozmery_modelu_cm": {
+   "x": 46.0,
+   "y": 46.0,
+   "z": 97.0
+  },
+  "material_barva": "bílý, v. 122–202",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   -0.315,
+   1.535,
+   5.4
+  ]
+ },
+ "botnik_Universal": {
+  "nazev": "Botník Universal (4 výklopná čela)",
+  "kategorie": "botník",
+  "mistnost": "predsin",
+  "rozmery_cm": {
+   "sirka": 72,
+   "hloubka": 36,
+   "vyska": 80
+  },
+  "rozmery_modelu_cm": {
+   "x": 37.8,
+   "y": 72.0,
+   "z": 80.0
+  },
+  "material_barva": "vintage optika dřeva",
+  "zdroj": "ASKO, č. 1003883.23",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.205,
+   0.4,
+   14.96
+  ]
+ },
+ "zidle_Delta": {
+  "nazev": "Kancelářská židle AlzaErgo Chair Delta 1",
+  "kategorie": "židle",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 66,
+   "hloubka": 66,
+   "vyska": 128
+  },
+  "rozmery_modelu_cm": {
+   "x": 63.8,
+   "y": 60.9,
+   "z": 135.0
+  },
+  "material_barva": "šedobílá síťovina",
+  "zdroj": "Alza (AlzaErgo Chair Delta 1)",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.45,
+   0.675,
+   0.86
+  ]
+ },
+ "vstupni_dvere": {
+  "nazev": "Vstupní dveře 2křídlé",
+  "kategorie": "stavba",
+  "mistnost": "predsin",
+  "rozmery_cm": {
+   "sirka": 220,
+   "hloubka": 8,
+   "vyska": 200
+  },
+  "rozmery_modelu_cm": {
+   "x": 220.0,
+   "y": 8.0,
+   "z": 200.0
+  },
+  "material_barva": "hnědý rám, mléčné sklo",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "STAVBA",
+  "stred_m": [
+   1.105,
+   1.0,
+   15.61
+  ]
+ },
+ "postel_GROCI": {
+  "nazev": "Postel GROCI 160 s úložnými šuplíky",
+  "kategorie": "postel",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 164,
+   "hloubka": 214,
+   "vyska": 111
+  },
+  "rozmery_modelu_cm": {
+   "x": 213.8,
+   "y": 165.6,
+   "z": 111.0
+  },
+  "material_barva": "zelené povlečení a polštáře, hnědé prostěradlo, korpus zelený čalouněný",
+  "zdroj": "Sconto, č. 414483900",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.82,
+   0.555,
+   2.88
+  ]
+ },
+ "kuchynska_linka": {
+  "nazev": "Kuchyňská linka (stávající)",
+  "kategorie": "kuchyň",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 62.0,
+   "y": 190.0,
+   "z": 200.0
+  },
+  "material_barva": "světlé dřevo, tmavá pracovní deska",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KUCHYN",
+  "stred_m": [
+   -0.17,
+   1.0,
+   9.57
+  ]
+ },
+ "stul_ILMU": {
+  "nazev": "Psací stůl ILMU",
+  "kategorie": "stůl",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 120,
+   "hloubka": 55,
+   "vyska": 78
+  },
+  "rozmery_modelu_cm": {
+   "x": 120.0,
+   "y": 56.6,
+   "z": 78.0
+  },
+  "material_barva": "dub + antracit (podle Sconta)",
+  "zdroj": "Sconto, č. 414616300",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.6,
+   0.39,
+   0.283
+  ]
+ },
+ "zidle_Kaiden": {
+  "nazev": "Barové židle Kaiden (2×)",
+  "kategorie": "barová židle",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 32,
+   "hloubka": 39,
+   "vyska": 84
+  },
+  "rozmery_modelu_cm": {
+   "x": 42.0,
+   "y": 124.0,
+   "z": 92.0
+  },
+  "material_barva": "zelená + černá; sedák 32×39, v. 62–84",
+  "zdroj": "č. 30104097",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.486,
+   0.46,
+   9.95
+  ]
+ },
+ "KALLAX": {
+  "nazev": "Komoda IKEA KALLAX 4×3 (naležato)",
+  "kategorie": "komoda",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 146.5,
+   "hloubka": 39,
+   "vyska": 111.5
+  },
+  "rozmery_modelu_cm": {
+   "x": 146.5,
+   "y": 39.0,
+   "z": 111.5
+  },
+  "material_barva": "bílá, boxy bouclé + šuplíky",
+  "zdroj": "IKEA KALLAX",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   1.851,
+   0.557,
+   13.995
+  ]
+ },
+ "koberec_loznice": {
+  "nazev": "Koberec k pracovnímu stolu",
+  "kategorie": "koberec",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 170,
+   "hloubka": 120,
+   "vyska": 1
+  },
+  "rozmery_modelu_cm": {
+   "x": 170.0,
+   "y": 120.0,
+   "z": 0.8
+  },
+  "material_barva": "karamelová, nízký vlas",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.85,
+   0.005,
+   0.63
+  ]
+ },
+ "koberec_obyvak": {
+  "nazev": "Koberec k gauči",
+  "kategorie": "koberec",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 160,
+   "hloubka": 230,
+   "vyska": 1.5
+  },
+  "rozmery_modelu_cm": {
+   "x": 160.0,
+   "y": 230.0,
+   "z": 1.4
+  },
+  "material_barva": "krémová / ovesná",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   1.25,
+   0.008,
+   12.3
+  ]
+ },
+ "kos_na_pradlo": {
+  "nazev": "Koš na prádlo s víkem",
+  "kategorie": "úložný koš",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 45,
+   "hloubka": 35,
+   "vyska": 60
+  },
+  "rozmery_modelu_cm": {
+   "x": 35.0,
+   "y": 46.2,
+   "z": 60.0
+  },
+  "material_barva": "přírodní pletená mořská tráva, béžová vložka",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.029,
+   0.3,
+   4.605
+  ]
+ },
+ "lampicky_nocni_N1_N2": {
+  "nazev": "Lampičky u postele N1/N2",
+  "kategorie": "světlo",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 27.1,
+   "y": 222.0,
+   "z": 44.0
+  },
+  "material_barva": "stínidlo teple bílé, E14 chytrá žárovka 2200–2700 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   3.721,
+   0.74,
+   2.89
+  ]
+ },
+ "lednice": {
+  "nazev": "Lednice",
+  "kategorie": "kuchyň",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 65.0,
+   "y": 64.0,
+   "z": 185.0
+  },
+  "material_barva": "bílá",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KUCHYN",
+  "stred_m": [
+   2.593,
+   0.925,
+   8.28
+  ]
+ },
+ "bar_Mojito": {
+  "nazev": "Barový stůl Mojito",
+  "kategorie": "barový stůl",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 115,
+   "hloubka": 50,
+   "vyska": 103
+  },
+  "rozmery_modelu_cm": {
+   "x": 115.0,
+   "y": 50.0,
+   "z": 103.0
+  },
+  "material_barva": "vintage dřevo + antracit, regál",
+  "zdroj": "ASKO, č. 512312.2",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.311,
+   0.515,
+   9.95
+  ]
+ },
+ "monitor": {
+  "nazev": "Monitor",
+  "kategorie": "elektronika",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 45.0,
+   "y": 6.0,
+   "z": 45.0
+  },
+  "material_barva": "černá",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   0.475,
+   1.005,
+   0.11
+  ]
+ },
+ "nocni_stolky": {
+  "nazev": "Noční stolky (2×) se 2 šuplíky",
+  "kategorie": "noční stolek",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "kusy": [
+    {
+     "sirka": 36,
+     "hloubka": 40,
+     "vyska": 52
+    },
+    {
+     "sirka": 40,
+     "hloubka": 40,
+     "vyska": 52
+    }
+   ]
+  },
+  "rozmery_modelu_cm": {
+   "x": 48.3,
+   "y": 240.0,
+   "z": 52.0
+  },
+  "material_barva": "dub wotan, kovové úchyty",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   3.715,
+   0.26,
+   2.9
+  ]
+ },
+ "obraz_P1": {
+  "nazev": "Obraz P1 – botanický – eukalyptus",
+  "kategorie": "obraz",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 4.3,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: zelená na krémové",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   3.898,
+   1.58,
+   2.4
+  ]
+ },
+ "obraz_P2": {
+  "nazev": "Obraz P2 – botanický – kapradí",
+  "kategorie": "obraz",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 4.3,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: zelená na krémové",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   3.915,
+   1.58,
+   2.88
+  ]
+ },
+ "obraz_P3": {
+  "nazev": "Obraz P3 – botanický – olivová ratolest",
+  "kategorie": "obraz",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 4.3,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: zelená na krémové",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   3.933,
+   1.58,
+   3.36
+  ]
+ },
+ "obraz_P4": {
+  "nazev": "Obraz P4 – abstrakce",
+  "kategorie": "obraz",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 100,
+   "hloubka": 3,
+   "vyska": 70
+  },
+  "rozmery_modelu_cm": {
+   "x": 4.9,
+   "y": 100.0,
+   "z": 70.0
+  },
+  "material_barva": "rám dřevo, paleta: šalvějová/olivová, béžová, terakota",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   2.815,
+   1.39,
+   13.12
+  ]
+ },
+ "obraz_P5": {
+  "nazev": "Obraz P5 – vintage závodní plakát",
+  "kategorie": "obraz",
+  "mistnost": "chodba",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 3.2,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: zelená, béžová",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   2.116,
+   1.5,
+   5.7
+  ]
+ },
+ "obraz_P6": {
+  "nazev": "Obraz P6 – abstrakce",
+  "kategorie": "obraz",
+  "mistnost": "chodba",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 3.2,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: béžová/zelená",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   2.116,
+   1.5,
+   6.4
+  ]
+ },
+ "obraz_P7": {
+  "nazev": "Obraz P7 – závodní detail č/b",
+  "kategorie": "obraz",
+  "mistnost": "chodba",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 3,
+   "vyska": 50
+  },
+  "rozmery_modelu_cm": {
+   "x": 3.2,
+   "y": 40.0,
+   "z": 50.0
+  },
+  "material_barva": "rám dřevo, paleta: černobílá",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "OBRAZY",
+  "stred_m": [
+   2.116,
+   1.5,
+   7.1
+  ]
+ },
+ "radiator_loznice": {
+  "nazev": "Radiátor (ložnice)",
+  "kategorie": "stavba",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 8.0,
+   "y": 100.0,
+   "z": 61.5
+  },
+  "material_barva": "bílý",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "STAVBA",
+  "stred_m": [
+   3.795,
+   0.458,
+   1.2
+  ]
+ },
+ "radiator_obyvak": {
+  "nazev": "Radiátor (obývák)",
+  "kategorie": "stavba",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 8.0,
+   "y": 100.0,
+   "z": 61.5
+  },
+  "material_barva": "bílý",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "STAVBA",
+  "stred_m": [
+   2.754,
+   0.458,
+   13.55
+  ]
+ },
+ "sporak": {
+  "nazev": "Sporák (stávající)",
+  "kategorie": "kuchyň",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 58.0,
+   "y": 49.0,
+   "z": 85.8
+  },
+  "material_barva": "bílá",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KUCHYN",
+  "stred_m": [
+   -0.16,
+   0.429,
+   10.77
+  ]
+ },
+ "pohar_shelvy_gauc": {
+  "nazev": "Pohár (police nad gaučem)",
+  "kategorie": "dekorace",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.2,
+   "y": 12.2,
+   "z": 24.4
+  },
+  "material_barva": "zlatý",
+  "zdroj": "Danielův pohár",
+  "odhad": true,
+  "skupina_v_glb": "DEKORACE",
+  "stred_m": [
+   2.744,
+   1.622,
+   11.85
+  ]
+ },
+ "pohary_nad_TV": {
+  "nazev": "Závodní poháry (nad TV)",
+  "kategorie": "dekorace",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 18.7,
+   "y": 98.4,
+   "z": 45.0
+  },
+  "material_barva": "zlaté/stříbrné, mramorové podstavce",
+  "zdroj": "Danielovy poháry",
+  "odhad": true,
+  "skupina_v_glb": "DEKORACE",
+  "stred_m": [
+   -0.341,
+   1.625,
+   12.58
+  ]
+ },
+ "pohary_vyklenek": {
+  "nazev": "Závodní poháry (výklenek)",
+  "kategorie": "dekorace",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 15.2,
+   "y": 80.7,
+   "z": 125.0
+  },
+  "material_barva": "zlaté/stříbrné, mramorové podstavce – zjednodušený model",
+  "zdroj": "Danielovy poháry",
+  "odhad": true,
+  "skupina_v_glb": "DEKORACE",
+  "stred_m": [
+   -0.203,
+   1.045,
+   1.109
+  ]
+ },
+ "police_nad_TV": {
+  "nazev": "Police nad TV",
+  "kategorie": "police",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 166,
+   "hloubka": 22,
+   "vyska": 2.8
+  },
+  "rozmery_modelu_cm": {
+   "x": 25.3,
+   "y": 166.0,
+   "z": 2.8
+  },
+  "material_barva": "dub wotan, v. 140",
+  "zdroj": "na míru / nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.338,
+   1.386,
+   12.6
+  ]
+ },
+ "police_vyklenek": {
+  "nazev": "Police ve výklenku (4×)",
+  "kategorie": "police",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 97,
+   "hloubka": 27,
+   "vyska": 2.8
+  },
+  "rozmery_modelu_cm": {
+   "x": 30.5,
+   "y": 97.0,
+   "z": 137.8
+  },
+  "material_barva": "dub wotan; horní hrany 42/82/122/177",
+  "zdroj": "na míru / nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.205,
+   1.081,
+   1.135
+  ]
+ },
+ "pracka": {
+  "nazev": "Pračka (stávající)",
+  "kategorie": "kuchyň",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 61.8,
+   "y": 58.0,
+   "z": 85.0
+  },
+  "material_barva": "bílá",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KUCHYN",
+  "stred_m": [
+   -0.171,
+   0.425,
+   8.32
+  ]
+ },
+ "okno_loznice": {
+  "nazev": "Okno v ložnici",
+  "kategorie": "stavba",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 163.0,
+   "y": 8.0,
+   "z": 100.0
+  },
+  "material_barva": "bílý rám, parapet 80",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "STAVBA",
+  "stred_m": [
+   2.015,
+   1.3,
+   -0.12
+  ]
+ },
+ "rostlina_brectan_police_vyklenek_4": {
+  "nazev": "Umělá rostlina – brectan police vyklenek 4",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 20.5,
+   "y": 15.4,
+   "z": 40.3
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.198,
+   1.782,
+   1.404
+  ]
+ },
+ "rostlina_brectan_shelvy_gauc": {
+  "nazev": "Umělá rostlina – brectan shelvy gauc",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 19.9,
+   "y": 16.3,
+   "z": 35.6
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.751,
+   1.738,
+   12.318
+  ]
+ },
+ "rostlina_mala_na_baru": {
+  "nazev": "Umělá rostlina – mala na baru",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.4,
+   "y": 14.9,
+   "z": 23.0
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.79,
+   1.145,
+   9.948
+  ]
+ },
+ "rostlina_mala_na_KALLAX": {
+  "nazev": "Umělá rostlina – mala na KALLAX",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.1,
+   "y": 11.2,
+   "z": 22.9
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.379,
+   1.23,
+   13.994
+  ]
+ },
+ "rostlina_mala_na_toaletnim_stolku": {
+  "nazev": "Umělá rostlina – mala na toaletnim stolku",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.1,
+   "y": 12.0,
+   "z": 24.3
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   3.721,
+   0.882,
+   4.603
+  ]
+ },
+ "rostlina_mala_na_TV_stolku": {
+  "nazev": "Umělá rostlina – mala na TV stolku",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.0,
+   "y": 11.1,
+   "z": 22.2
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.222,
+   0.411,
+   13.345
+  ]
+ },
+ "rostlina_mala_police_vyklenek_1": {
+  "nazev": "Umělá rostlina – mala police vyklenek 1",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 11.6,
+   "y": 12.0,
+   "z": 21.7
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.218,
+   0.528,
+   1.438
+  ]
+ },
+ "rostlina_mala_shelvy_gauc": {
+  "nazev": "Umělá rostlina – mala shelvy gauc",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 13.6,
+   "y": 12.8,
+   "z": 22.0
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.746,
+   1.61,
+   11.559
+  ]
+ },
+ "rostlina_mala_v_regalu_baru": {
+  "nazev": "Umělá rostlina – mala v regalu baru",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 11.4,
+   "y": 12.7,
+   "z": 20.1
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   1.883,
+   0.62,
+   9.945
+  ]
+ },
+ "rostlina_potos_nad_TV_vlevo": {
+  "nazev": "Umělá rostlina – potos nad TV vlevo",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 22.1,
+   "y": 18.0,
+   "z": 53.8
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.331,
+   1.379,
+   11.882
+  ]
+ },
+ "rostlina_potos_nad_TV_vpravo": {
+  "nazev": "Umělá rostlina – potos nad TV vpravo",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 22.1,
+   "y": 18.4,
+   "z": 48.8
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.302,
+   1.394,
+   13.32
+  ]
+ },
+ "rostlina_potos_shelvy_bar": {
+  "nazev": "Umělá rostlina – potos shelvy bar",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 21.9,
+   "y": 17.6,
+   "z": 41.7
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.799,
+   1.738,
+   9.704
+  ]
+ },
+ "rostlina_stredni_na_KALLAX": {
+  "nazev": "Umělá rostlina – stredni na KALLAX",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 19.5,
+   "y": 20.5,
+   "z": 34.5
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   1.482,
+   1.228,
+   14.0
+  ]
+ },
+ "rostlina_stredni_na_TV_stolku": {
+  "nazev": "Umělá rostlina – stredni na TV stolku",
+  "kategorie": "rostlina",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 19.5,
+   "y": 20.9,
+   "z": 38.5
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.232,
+   0.458,
+   11.857
+  ]
+ },
+ "rostlina_sukulent_police_vyklenek_2": {
+  "nazev": "Umělá rostlina – sukulent police vyklenek 2",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 10.7,
+   "y": 10.1,
+   "z": 18.2
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.212,
+   0.911,
+   1.419
+  ]
+ },
+ "rostlina_mala_parapet_1": {
+  "nazev": "Živá rostlina – mala parapet 1",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 13.2,
+   "y": 13.0,
+   "z": 24.4
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   1.607,
+   0.922,
+   -0.018
+  ]
+ },
+ "rostlina_mala_parapet_2": {
+  "nazev": "Živá rostlina – mala parapet 2",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 13.5,
+   "y": 11.6,
+   "z": 24.4
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   1.992,
+   0.922,
+   -0.012
+  ]
+ },
+ "rostlina_mala_parapet_3": {
+  "nazev": "Živá rostlina – mala parapet 3",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 13.6,
+   "y": 14.2,
+   "z": 23.6
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.453,
+   0.918,
+   -0.015
+  ]
+ },
+ "rostlina_mala_potos_police_vyklenek_4": {
+  "nazev": "Živá rostlina – mala potos police vyklenek 4",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 20.8,
+   "y": 16.0,
+   "z": 34.2
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   -0.177,
+   1.811,
+   0.882
+  ]
+ },
+ "rostlina_mala_shelvy_okno": {
+  "nazev": "Živá rostlina – mala shelvy okno",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 12.5,
+   "y": 11.7,
+   "z": 20.9
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   3.501,
+   1.604,
+   0.123
+  ]
+ },
+ "rostlina_potos_shelvy_okno": {
+  "nazev": "Živá rostlina – potos shelvy okno",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 15.7,
+   "y": 19.1,
+   "z": 33.5
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   3.179,
+   1.548,
+   0.141
+  ]
+ },
+ "rostlina_stredni_na_stole_ILMU": {
+  "nazev": "Živá rostlina – stredni na stole ILMU",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 17.6,
+   "y": 17.3,
+   "z": 37.6
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   1.079,
+   0.901,
+   0.146
+  ]
+ },
+ "rostlina_velka_monstera_u_vchodu": {
+  "nazev": "Živá rostlina – velka monstera u vchodu",
+  "kategorie": "rostlina",
+  "mistnost": "predsin",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 86.8,
+   "y": 90.1,
+   "z": 140.5
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   2.418,
+   0.703,
+   14.439
+  ]
+ },
+ "rostlina_velka_u_okna_loznice": {
+  "nazev": "Živá rostlina – velka u okna loznice",
+  "kategorie": "rostlina",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 34.0,
+   "y": 34.0,
+   "z": 134.6
+  },
+  "material_barva": "zelené listy, květináč",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "ROSTLINY",
+  "stred_m": [
+   3.18,
+   0.673,
+   0.4
+  ]
+ },
+ "TV_stolek_Samsa": {
+  "nazev": "TV stolek Samsa",
+  "kategorie": "TV stolek",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 175.5,
+   "hloubka": 40,
+   "vyska": 30
+  },
+  "rozmery_modelu_cm": {
+   "x": 41.6,
+   "y": 175.5,
+   "z": 30.0
+  },
+  "material_barva": "vintage dřevo + antracit",
+  "zdroj": "ASKO, č. 4613687.3",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.222,
+   0.15,
+   12.598
+  ]
+ },
+ "shelvy_bar80": {
+  "nazev": "Police Shelvy 80",
+  "kategorie": "nástěnná police",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 80,
+   "hloubka": 23.5,
+   "vyska": 3.7
+  },
+  "rozmery_modelu_cm": {
+   "x": 25.1,
+   "y": 80.0,
+   "z": 3.7
+  },
+  "material_barva": "vintage optika dřeva, v. 170",
+  "zdroj": "ASKO Shelvy",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.779,
+   1.681,
+   9.95
+  ]
+ },
+ "shelvy_okno60": {
+  "nazev": "Police Shelvy 60 (ložnice)",
+  "kategorie": "nástěnná police",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 60,
+   "hloubka": 23.5,
+   "vyska": 3.7
+  },
+  "rozmery_modelu_cm": {
+   "x": 60.0,
+   "y": 23.5,
+   "z": 3.7
+  },
+  "material_barva": "vintage optika dřeva, v. 150",
+  "zdroj": "ASKO Shelvy",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   3.35,
+   1.482,
+   0.117
+  ]
+ },
+ "shelvy_sofa23": {
+  "nazev": "Police Shelvy 23,5",
+  "kategorie": "nástěnná police",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 23.5,
+   "hloubka": 23.5,
+   "vyska": 3.7
+  },
+  "rozmery_modelu_cm": {
+   "x": 24.0,
+   "y": 23.5,
+   "z": 3.7
+  },
+  "material_barva": "vintage optika dřeva, v. 170",
+  "zdroj": "ASKO Shelvy",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.731,
+   1.681,
+   12.318
+  ]
+ },
+ "shelvy_sofa60": {
+  "nazev": "Police Shelvy 60 (nad gaučem)",
+  "kategorie": "nástěnná police",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 60,
+   "hloubka": 23.5,
+   "vyska": 3.7
+  },
+  "rozmery_modelu_cm": {
+   "x": 24.7,
+   "y": 60.0,
+   "z": 3.7
+  },
+  "material_barva": "vintage optika dřeva, v. 150",
+  "zdroj": "ASKO Shelvy",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.744,
+   1.482,
+   11.7
+  ]
+ },
+ "zrcadlova_skrinka": {
+  "nazev": "Zrcadlová skříňka se světlem",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 56,
+   "hloubka": 16,
+   "vyska": 68
+  },
+  "rozmery_modelu_cm": {
+   "x": 16.0,
+   "y": 56.0,
+   "z": 68.0
+  },
+  "material_barva": "bílá + zrcadlo",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   -0.465,
+   1.59,
+   6.8
+  ]
+ },
+ "sprchovy_kout": {
+  "nazev": "Sprchový kout čtvrtkruhový",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 90,
+   "hloubka": 90,
+   "vyska": 195
+  },
+  "rozmery_modelu_cm": {
+   "x": 90.0,
+   "y": 90.0,
+   "z": 195.0
+  },
+  "material_barva": "čiré sklo, hliník",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   0.255,
+   0.975,
+   7.43
+  ]
+ },
+ "led_pasek_chodba_C1": {
+  "nazev": "LED pásek v chodbě se senzorem (C1)",
+  "kategorie": "světlo",
+  "mistnost": "chodba",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 1.6,
+   "y": 275.0,
+   "z": 1.2
+  },
+  "material_barva": "na baterie, 2700 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   2.095,
+   0.08,
+   6.425
+  ]
+ },
+ "led_kuchyn_K1": {
+  "nazev": "LED pod linkou (K1)",
+  "kategorie": "světlo",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 1.6,
+   "y": 176.0,
+   "z": 1.2
+  },
+  "material_barva": "2700–3000 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   -0.3,
+   1.34,
+   9.6
+  ]
+ },
+ "lampa_O2_KALLAX": {
+  "nazev": "Lampička na KALLAXu (O2)",
+  "kategorie": "světlo",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 16.0,
+   "y": 16.0,
+   "z": 38.5
+  },
+  "material_barva": "E14 ~470 lm, 2700 K stmív.",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   1.93,
+   1.308,
+   14.0
+  ]
+ },
+ "led_pasek_TV_O3": {
+  "nazev": "LED pásek za TV (O3)",
+  "kategorie": "světlo",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 1.6,
+   "y": 130.0,
+   "z": 1.2
+  },
+  "material_barva": "2200 K / RGB+W",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   -0.28,
+   1.25,
+   12.6
+  ]
+ },
+ "svetlo_nad_barem_O5": {
+  "nazev": "Závěsné světlo nad barem (O5)",
+  "kategorie": "světlo",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 22.0,
+   "y": 22.0,
+   "z": 101.0
+  },
+  "material_barva": "E27 G95 ~806 lm, 2700 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   2.31,
+   2.195,
+   9.95
+  ]
+ },
+ "lampa_stolni_S1": {
+  "nazev": "Stolní lampa (S1)",
+  "kategorie": "světlo",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 46.0,
+   "y": 33.0,
+   "z": 34.8
+  },
+  "material_barva": "černá, 3000–4000 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   0.31,
+   0.954,
+   0.235
+  ]
+ },
+ "podsviceni_zrcadla_T1": {
+  "nazev": "Podsvícení zrcadla toaletního stolku (T1)",
+  "kategorie": "světlo",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 108.0,
+   "y": 0.4,
+   "z": 69.0
+  },
+  "material_barva": "LED pásek 3000–4000 K",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "SVETLA",
+  "stred_m": [
+   3.22,
+   1.245,
+   4.888
+  ]
+ },
+ "dekorace_shelvy_bar": {
+  "nazev": "Váza a svíčka (police nad barem)",
+  "kategorie": "dekorace",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 9.0,
+   "y": 28.5,
+   "z": 18.0
+  },
+  "material_barva": "keramika",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "DEKORACE",
+  "stred_m": [
+   2.779,
+   1.79,
+   10.102
+  ]
+ },
+ "taburet": {
+  "nazev": "Chlupatý taburet",
+  "kategorie": "taburet",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 38,
+   "hloubka": 38,
+   "vyska": 43
+  },
+  "rozmery_modelu_cm": {
+   "x": 38.0,
+   "y": 38.0,
+   "z": 43.0
+  },
+  "material_barva": "bílá kožešinka, zlaté nožičky",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   3.22,
+   0.215,
+   4.7
+  ]
+ },
+ "stolek_Tim": {
+  "nazev": "Konferenční stolek Tim",
+  "kategorie": "stolek",
+  "mistnost": "obyvak",
+  "rozmery_cm": {
+   "sirka": 90,
+   "hloubka": 60,
+   "vyska": 41
+  },
+  "rozmery_modelu_cm": {
+   "x": 60.0,
+   "y": 90.0,
+   "z": 41.0
+  },
+  "material_barva": "vintage dřevo",
+  "zdroj": "ASKO, č. 512282.2",
+  "odhad": false,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   1.07,
+   0.205,
+   12.1
+  ]
+ },
+ "toaletni_stolek": {
+  "nazev": "Toaletní stolek se zrcadlem",
+  "kategorie": "toaletní stolek",
+  "mistnost": "loznice",
+  "rozmery_cm": {
+   "sirka": 120,
+   "hloubka": 40,
+   "vyska": 76
+  },
+  "rozmery_modelu_cm": {
+   "x": 120.0,
+   "y": 42.0,
+   "z": 157.0
+  },
+  "material_barva": "bílá mat, zrcadlo ~104×65 (odh.)",
+  "zdroj": "vybráno podle fotky – rozměry nezměřeny",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   3.22,
+   0.785,
+   4.69
+  ]
+ },
+ "televize": {
+  "nazev": "Televize 55\"",
+  "kategorie": "elektronika",
+  "mistnost": "obyvak",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 10.0,
+   "y": 124.0,
+   "z": 80.0
+  },
+  "material_barva": "černá; velikost TV odh. (55\")",
+  "zdroj": "–",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.26,
+   0.7,
+   12.597
+  ]
+ },
+ "vesaky": {
+  "nazev": "Věšáky – 2 lišty (bundy 165 / čepice 190)",
+  "kategorie": "věšák",
+  "mistnost": "predsin",
+  "rozmery_cm": {
+   "sirka": 44,
+   "hloubka": 8,
+   "vyska": 9
+  },
+  "rozmery_modelu_cm": {
+   "x": 8.0,
+   "y": 44.0,
+   "z": 34.0
+  },
+  "material_barva": "vintage hnědé dřevo, černé háčky (3 + 4)",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.747,
+   1.775,
+   15.01
+  ]
+ },
+ "wc": {
+  "nazev": "WC (kompaktní)",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 40,
+   "hloubka": 55,
+   "vyska": 80
+  },
+  "rozmery_modelu_cm": {
+   "x": 37.0,
+   "y": 55.6,
+   "z": 80.0
+  },
+  "material_barva": "bílá keramika",
+  "zdroj": "stávající",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   0.08,
+   0.4,
+   5.298
+  ]
+ },
+ "zavesy_vstup": {
+  "nazev": "Závěsy na vstupních dveřích",
+  "kategorie": "závěs",
+  "mistnost": "predsin",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 314.5,
+   "y": 6.9,
+   "z": 264.0
+  },
+  "material_barva": "zelený samet, kolejnice v. 265",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   1.188,
+   1.33,
+   15.43
+  ]
+ },
+ "zavesy_okno": {
+  "nazev": "Závěsy na okně v ložnici",
+  "kategorie": "závěs",
+  "mistnost": "loznice",
+  "rozmery_cm": null,
+  "rozmery_modelu_cm": {
+   "x": 205.0,
+   "y": 2.0,
+   "z": 214.0
+  },
+  "material_barva": "zelený samet, kolejnice u stropu",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   2.025,
+   1.08,
+   0.12
+  ]
+ },
+ "zebrik_susak": {
+  "nazev": "Žebříkový radiátor / sušák ručníků",
+  "kategorie": "koupelna",
+  "mistnost": "koupelna",
+  "rozmery_cm": {
+   "sirka": 50,
+   "hloubka": 6,
+   "vyska": 130
+  },
+  "rozmery_modelu_cm": {
+   "x": 6.4,
+   "y": 48.8,
+   "z": 130.0
+  },
+  "material_barva": "bílý",
+  "zdroj": "stávající / plán",
+  "odhad": true,
+  "skupina_v_glb": "KOUPELNA",
+  "stred_m": [
+   0.673,
+   0.85,
+   5.7
+  ]
+ },
+ "zrcadlo_predsin": {
+  "nazev": "Zrcadlo v předsíni",
+  "kategorie": "zrcadlo",
+  "mistnost": "predsin",
+  "rozmery_cm": {
+   "sirka": 60,
+   "hloubka": 3,
+   "vyska": 80
+  },
+  "rozmery_modelu_cm": {
+   "x": 3.2,
+   "y": 60.0,
+   "z": 80.0
+  },
+  "material_barva": "vintage hnědý rám, v. 100–180",
+  "zdroj": "zatím nevybráno",
+  "odhad": true,
+  "skupina_v_glb": "NABYTEK",
+  "stred_m": [
+   -0.381,
+   1.4,
+   14.96
+  ]
+ }
+}

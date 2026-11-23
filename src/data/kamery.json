@@ -1,0 +1,202 @@
+{
+ "_info": {
+  "popis": "Souřadnice glTF/three.js v metrech (X = plán x, Y = výška, Z = plán y). FOV vertikální pro poměr 3:2 / senzor 36×24.",
+  "vyska_oci_m": 1.6,
+  "stropy_m": {
+   "loznice": 2.15,
+   "chodba": 2.15,
+   "koupelna": 2.15,
+   "obyvak_kuchyn": 2.7
+  },
+  "start_volny_pohyb": {
+   "pozice": [
+    1.1,
+    1.6,
+    14.8
+   ],
+   "pohled_na": [
+    1.1,
+    1.6,
+    12.0
+   ],
+   "poznamka": "u vstupních dveří, pohled do obýváku"
+  }
+ },
+ "kamery": [
+  {
+   "id": "obyvak",
+   "nazev": "Obývák od KALLAXu → kuchyň a bar",
+   "pozice": [
+    2.62,
+    1.65,
+    13.98
+   ],
+   "cil": [
+    0.3,
+    1.0,
+    8.8
+   ],
+   "ohnisko_mm": 20,
+   "fov_vertikalni_st": 61.9,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "kuchyn",
+   "nazev": "Od kuchyně ke vchodu (gauč, Tim, P4)",
+   "pozice": [
+    0.62,
+    1.6,
+    8.22
+   ],
+   "cil": [
+    1.32,
+    0.88,
+    15.5
+   ],
+   "ohnisko_mm": 20,
+   "fov_vertikalni_st": 61.9,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "predsin",
+   "nazev": "Předsíň – botník, zrcadlo, věšáky",
+   "pozice": [
+    1.0,
+    1.6,
+    13.95
+   ],
+   "cil": [
+    -0.38,
+    1.2,
+    14.96
+   ],
+   "ohnisko_mm": 18,
+   "fov_vertikalni_st": 67.4,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "vesaky",
+   "nazev": "Předsíň – věšáky a monstera",
+   "pozice": [
+    0.7,
+    1.6,
+    14.2
+   ],
+   "cil": [
+    2.79,
+    1.28,
+    15.02
+   ],
+   "ohnisko_mm": 18,
+   "fov_vertikalni_st": 67.4,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "loznice-1",
+   "nazev": "Ložnice od oblouku → postel a okno",
+   "pozice": [
+    1.42,
+    1.6,
+    5.2
+   ],
+   "cil": [
+    2.05,
+    1.0,
+    0.0
+   ],
+   "ohnisko_mm": 18,
+   "fov_vertikalni_st": 67.4,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "loznice-2",
+   "nazev": "Ložnice od okna → ABBY, výklenek",
+   "pozice": [
+    3.3,
+    1.6,
+    0.95
+   ],
+   "cil": [
+    0.2,
+    0.92,
+    3.35
+   ],
+   "ohnisko_mm": 18,
+   "fov_vertikalni_st": 67.4,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "chodba",
+   "nazev": "Chodba → obrazy P5–P7 a obývák",
+   "pozice": [
+    1.5,
+    1.6,
+    5.22
+   ],
+   "cil": [
+    1.78,
+    1.18,
+    8.0
+   ],
+   "ohnisko_mm": 18,
+   "fov_vertikalni_st": 67.4,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "koupelna",
+   "nazev": "Koupelna – sprcha, umyvadlo, WC",
+   "pozice": [
+    -0.38,
+    1.65,
+    7.7
+   ],
+   "cil": [
+    0.08,
+    1.08,
+    5.6
+   ],
+   "ohnisko_mm": 14,
+   "fov_vertikalni_st": 81.2,
+   "typ": "perspektiva"
+  },
+  {
+   "id": "shora",
+   "nazev": "Kolmo shora (plán)",
+   "pozice": [
+    1.73,
+    15.0,
+    7.75
+   ],
+   "cil": [
+    1.73,
+    0.0,
+    7.75
+   ],
+   "up": [
+    1,
+    0,
+    0
+   ],
+   "typ": "ortho",
+   "ortho_vyska_m": 8.6,
+   "poznamka": "skrýt strop; up=+X → byt leží na šířku"
+  },
+  {
+   "id": "ptaci",
+   "nazev": "Ptačí pohled šikmo (~58°)",
+   "pozice": [
+    9.558,
+    12.721,
+    9.13
+   ],
+   "cil": [
+    1.73,
+    0.4,
+    7.75
+   ],
+   "typ": "ortho",
+   "ortho_vyska_m": 8.5,
+   "poznamka": "nejlépe s režimem řez 120 cm"
+  }
+ ]
+}
