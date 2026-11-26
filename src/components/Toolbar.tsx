@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useId, useRef, useState } from 'react'
 import { VIEW_HOTKEYS } from '../constants'
 import { kamery, useAppStore } from '../store'
 import type { MaterialMode, VisibilityMode } from '../types'
@@ -15,6 +15,92 @@ const MAT: Array<{ id: MaterialMode; label: string }> = [
   { id: 'clay', label: 'Clay' },
   { id: 'wireframe', label: 'Drátový' },
 ]
+
+const MODES = [
+  { id: 'orbit' as const, label: '🎥 Pohledy' },
+  { id: 'walk' as const, label: '🚶 Projít se' },
+]
+
+interface SelectOption<T extends string> {
+  id: T
+  label: string
+}
+
+function CollapsibleSelect<T extends string>({
+  label,
+  options,
+  value,
+  onChange,
+}: {
+  label: string
+  options: Array<SelectOption<T>>
+  value: T
+  onChange: (id: T) => void
+}) {
+  const [open, setOpen] = useState(false)
+  const rootRef = useRef<HTMLDivElement>(null)
+  const listId = useId()
+  const active = options.find((o) => o.id === value) ?? options[0]
+
+  useEffect(() => {
+    if (!open) return
+    const onPointer = (e: PointerEvent) => {
+      if (!rootRef.current?.contains(e.target as Node)) setOpen(false)
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    window.addEventListener('pointerdown', onPointer)
+    window.addEventListener('keydown', onKey)
+    return () => {
+      window.removeEventListener('pointerdown', onPointer)
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  return (
+    <div
+      className={`collapse-select${open ? ' open' : ''}`}
+      ref={rootRef}
+      role="group"
+      aria-label={label}
+    >
+      {!open ? (
+        <button
+          type="button"
+          className="collapse-select-trigger active"
+          aria-haspopup="listbox"
+          aria-expanded={false}
+          aria-controls={listId}
+          onClick={() => setOpen(true)}
+        >
+          <span>{active.label}</span>
+          <span className="collapse-caret" aria-hidden>
+            ▾
+          </span>
+        </button>
+      ) : (
+        <div className="collapse-select-menu" id={listId} role="listbox" aria-label={label}>
+          {options.map((o) => (
+            <button
+              key={o.id}
+              type="button"
+              role="option"
+              aria-selected={o.id === value}
+              className={o.id === value ? 'active' : ''}
+              onClick={() => {
+                onChange(o.id)
+                setOpen(false)
+              }}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export function Toolbar() {
   const mode = useAppStore((s) => s.mode)
@@ -56,63 +142,43 @@ export function Toolbar() {
     <>
       <div className="top-bar">
         <div className="brand-block">
-          <h1 className="brand">Náš byt – v21</h1>
-          <div className="mode-switch" role="group" aria-label="Režim">
-            <button
-              type="button"
-              className={mode === 'orbit' ? 'active' : ''}
-              onClick={() => exitWalk()}
-            >
-              🎥 Pohledy
-            </button>
-            <button
-              type="button"
-              className={mode === 'walk' ? 'active' : ''}
-              onClick={() => enterWalk()}
-            >
-              🚶 Projít se
-            </button>
+          <h1 className="brand">Byt</h1>
+          <div className="top-controls">
+            <CollapsibleSelect
+              label="Režim"
+              options={MODES}
+              value={mode}
+              onChange={(id) => {
+                if (id === 'walk') enterWalk()
+                else exitWalk()
+              }}
+            />
+            <CollapsibleSelect
+              label="Viditelnost"
+              options={VIS}
+              value={visibilityMode}
+              onChange={setVisibilityMode}
+            />
+            <CollapsibleSelect
+              label="Materiál"
+              options={MAT}
+              value={materialMode}
+              onChange={setMaterialMode}
+            />
+            {visibilityMode === 'section' && (
+              <label className="section-slider">
+                Řez {sectionHeight.toFixed(1)} m
+                <input
+                  type="range"
+                  min={0.8}
+                  max={2.7}
+                  step={0.05}
+                  value={sectionHeight}
+                  onChange={(e) => setSectionHeight(Number(e.target.value))}
+                />
+              </label>
+            )}
           </div>
-        </div>
-
-        <div className="display-controls">
-          <div className="segment" role="group" aria-label="Viditelnost">
-            {VIS.map((v) => (
-              <button
-                key={v.id}
-                type="button"
-                className={visibilityMode === v.id ? 'active' : ''}
-                onClick={() => setVisibilityMode(v.id)}
-              >
-                {v.label}
-              </button>
-            ))}
-          </div>
-          <div className="segment" role="group" aria-label="Materiál">
-            {MAT.map((m) => (
-              <button
-                key={m.id}
-                type="button"
-                className={materialMode === m.id ? 'active' : ''}
-                onClick={() => setMaterialMode(m.id)}
-              >
-                {m.label}
-              </button>
-            ))}
-          </div>
-          {visibilityMode === 'section' && (
-            <label className="section-slider">
-              Řez {sectionHeight.toFixed(1)} m
-              <input
-                type="range"
-                min={0.8}
-                max={2.7}
-                step={0.05}
-                value={sectionHeight}
-                onChange={(e) => setSectionHeight(Number(e.target.value))}
-              />
-            </label>
-          )}
         </div>
       </div>
 
@@ -136,9 +202,7 @@ export function Toolbar() {
       {mode === 'walk' && (
         <div className="walk-hud">
           <div className="crosshair" aria-hidden />
-          {walkAimId && (
-            <div className="aim-hint">Klikni / E – info</div>
-          )}
+          {walkAimId && <div className="aim-hint">Klikni / E – info</div>}
         </div>
       )}
     </>

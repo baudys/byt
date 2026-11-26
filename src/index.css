@@ -110,13 +110,13 @@ input {
   position: absolute;
   top: 12px;
   left: 12px;
-  right: 12px;
+  right: auto;
+  max-width: min(420px, calc(100vw - 64px));
   z-index: 10;
   display: flex;
   flex-wrap: wrap;
   gap: 10px 16px;
   align-items: flex-start;
-  justify-content: space-between;
   padding: 10px 12px;
   border-radius: var(--radius);
   pointer-events: none;
@@ -130,6 +130,7 @@ input {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 
 .brand {
@@ -140,8 +141,13 @@ input {
   color: var(--accent);
 }
 
-.mode-switch,
-.segment,
+.top-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-start;
+}
+
 .tabs {
   display: inline-flex;
   flex-wrap: wrap;
@@ -152,8 +158,13 @@ input {
   border: 1px solid var(--border);
 }
 
-.mode-switch button,
-.segment button,
+.collapse-select {
+  position: relative;
+  display: inline-flex;
+}
+
+.collapse-select-trigger,
+.collapse-select-menu button,
 .tabs button,
 .view-strip button,
 .btn,
@@ -170,8 +181,38 @@ input {
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-.mode-switch button.active,
-.segment button.active,
+.collapse-select-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: none;
+}
+
+.collapse-select-trigger:hover {
+  background: var(--accent-soft);
+}
+
+.collapse-caret {
+  font-size: 0.65rem;
+  opacity: 0.85;
+  line-height: 1;
+}
+
+.collapse-select-menu {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  z-index: 20;
+}
+
+.collapse-select-menu button.active,
 .tabs button.active,
 .view-strip button.active,
 .furniture-panel li button.active {
@@ -179,20 +220,10 @@ input {
   color: #fff;
 }
 
-.mode-switch button:hover,
-.segment button:hover,
+.collapse-select-menu button:hover,
 .tabs button:hover,
 .view-strip button:hover {
   background: rgba(79, 107, 74, 0.12);
-}
-
-.display-controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-end;
-  max-width: 100%;
 }
 
 .section-slider {
@@ -461,9 +492,6 @@ input {
   margin-top: 0;
 }
 
-.top-bar {
-  right: 56px;
-}
 
 .modal-backdrop {
   position: absolute;
@@ -584,8 +612,8 @@ kbd {
 
 .joystick {
   position: absolute;
-  left: 20px;
-  bottom: 100px;
+  left: max(20px, env(safe-area-inset-left, 0px));
+  bottom: max(20px, env(safe-area-inset-bottom, 0px));
   z-index: 14;
   width: 110px;
   height: 110px;
@@ -648,7 +676,7 @@ kbd {
   .top-bar {
     top: 8px;
     left: 8px;
-    right: 48px;
+    max-width: calc(100vw - 56px);
     padding: 8px;
   }
 
@@ -656,10 +684,15 @@ kbd {
     font-size: 1rem;
   }
 
-  .segment button,
-  .mode-switch button {
+  .collapse-select-trigger,
+  .collapse-select-menu button {
     padding: 0.35rem 0.55rem;
     font-size: 0.75rem;
+  }
+
+  .joystick {
+    left: max(16px, env(safe-area-inset-left, 0px));
+    bottom: max(16px, env(safe-area-inset-bottom, 0px));
   }
 
   .furniture-panel {
@@ -694,8 +727,3 @@ kbd {
   }
 }
 
-@media (max-width: 480px) and (orientation: portrait) {
-  .display-controls {
-    width: 100%;
-  }
-}
